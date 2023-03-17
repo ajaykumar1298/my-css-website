@@ -6,7 +6,7 @@ body {
 }
 .top-container {
   background-color: #b9f3e4;
-  position: relative;
+  /* position: relative; */
   padding-top: 100px;
 }
 h1 {
@@ -39,15 +39,29 @@ p {
 .middle-container {
   margin: 100px auto;
 }
-.bottom-cloud {
-  position: absolute;
-  left: 350px;
-  bottom: 250px;
+
+/* title */
+.images-mountain-cloud {
+  position: relative;
+  width: 100%;
 }
 .top-cloud {
   position: absolute;
-  right: 400px;
-  top: 50px;
+  right: 32%;
+  top: 20%;
+  max-width: 100%;
+  /* z-index: -1; */
+}
+.bottom-cloud {
+  max-width: 100%;
+  position: absolute;
+  bottom: 30%;
+  left: 2%;
+  /* z-index: -1; */
+}
+
+.mountain-img {
+  max-width: 100%;
 }
 
 span {
@@ -138,8 +152,4 @@ a:hover {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-.mountain-img {
-  max-width: 100%;
 }
